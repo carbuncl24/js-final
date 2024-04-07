@@ -1,0 +1,66 @@
+@import "reset.css";
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 80%;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  align-content: center;
+}
+
+.hidden {
+  display: none;
+  font-size: 55px;
+  font-weight: 500;
+  color: white;
+}
+
+.login-form__message {
+  font-size: 40px;
+  color: tomato;
+  padding-bottom: 20px;
+}
+
+.todo-form {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  font-size: 100%;
+}
+#clock {
+  padding-bottom: 20px;
+  font-size: 70px;
+  font-weight: 600;
+  color: white;
+}
+
+ul {
+  position: relative;
+  top: 45px;
+  align-items: center;
+}
+
+li {
+  margin: 10px;
+  font-size: 40px;
+  align-items: center;
+}
+
+#weather {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  font-size: 150%;
+  color: white;
+}

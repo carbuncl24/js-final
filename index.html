@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Final Challenge</title>
+  </head>
+  <body>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <h2 id="clock">00:00</h2>
+    <div class="login-form__message">
+      <h1 class="hidden" id="painting"></h1>
+    </div>
+    <form class="hidden" id="login-form">
+      <input
+        id="login-input"
+        required
+        maxlength="15"
+        type="text"
+        placeholder="Who are you?"
+      />
+      <input type="submit" value="Log In" />
+    </form>
+    <form id="todo-form">
+      <input
+        id="todo-text"
+        type="text"
+        placeholder="Write a To Do and Press Enter"
+        required
+      />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+
+    <script src="js/paint.js"></script>
+    <script src="js/jsclock.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
